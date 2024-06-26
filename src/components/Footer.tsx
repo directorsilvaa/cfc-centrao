@@ -4,8 +4,8 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = ["Nosso Contato", "Sobre Nós", "Serviços", "Contato"];
+  const legal = ["Termos de Condição"];
   return (
     <div className="relative">
       <Container>
@@ -18,13 +18,12 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/avenida.svg"
                   alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
+                  width="100"
+                  height="100"
+                  className="w-[150px]"
                 />
-                <span>Nextly</span>
               </Link>
             </div>
 
@@ -32,22 +31,6 @@ export function Footer() {
               Nextly is a free landing page & marketing website template for
               startups and indie projects. Its built with Next.js & TailwindCSS.
               And its completely open-source.
-            </div>
-
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
             </div>
           </div>
 
@@ -78,16 +61,8 @@ export function Footer() {
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
+            <div>Redes Sociais</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
-              </a>
               <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
@@ -113,13 +88,10 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
-            Glazestock
+          CNPJ: 01.139.612/0001-22 © {new Date().getFullYear()}
+          .Todos os direitos reservados{" "}
+          <a href="https://introti.com.br/" target="_blank" rel="noopener">
+            IntroTI
           </a>
         </div>
       </Container>
@@ -128,18 +100,6 @@ export function Footer() {
     </div>
   );
 }
-
-const Twitter = ({ size = 24 }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-  >
-    <path d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z" />
-  </svg>
-);
 
 const Facebook = ({ size = 24 }) => (
   <svg
@@ -179,7 +139,7 @@ const Linkedin = ({ size = 24 }) => (
 const Backlink = () => {
   return (
     <a
-      href="https://web3templates.com"
+      href="https://introti.com.br"
       target="_blank"
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
@@ -199,7 +159,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      <span>IntroTI</span>
     </a>
   );
 };

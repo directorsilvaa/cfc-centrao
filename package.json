@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "cfc-avenida",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "CFC-Avenida",
   "private": true,
   "scripts": {
     "dev": "next dev",
