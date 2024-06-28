@@ -40,8 +40,6 @@ const benefitTwo = {
   desc: "No Centrão, nosso objetivo é iniciar os futuros condutores no processo de obtenção da Carteira Nacional de Habilitação (CNH) com qualidade e responsabilidade. Somos um grupo de autoescolas unidas, comprometidas em oferecer aulas teóricas de primeira habilitação, curso de renovação e aulas de reciclagem com excelência.",
   descsub:
     "Nosso compromisso é garantir que os alunos recebam ensinamentos corretos sobre como se comportar no trânsito, agir de maneira adequada e seguir todas as leis de trânsito. Acreditamos que a educação é a base para formar motoristas conscientes e responsáveis, preparados para enfrentar os desafios das vias com segurança.",
-  descsub2:
-    "Além de fornecer o conhecimento necessário para a aprovação na prova teórica, focamos em desenvolver nos alunos uma compreensão profunda das responsabilidades que vêm com a direção. Nosso objetivo final é contribuir para a formação de condutores bem preparados e seguros, que possam contribuir para um trânsito mais harmonioso e seguro para todos.",
   image: benefitTwoImg,
   bullets: [
     {
