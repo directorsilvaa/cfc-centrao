@@ -7,12 +7,14 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/foto-sobre.png";
+import benefitTwoImg from "../../public/img/foto-sobre2.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Sobre Nós",
+  desc: "O centrão refere-se a um bloco de partidos políticos no Brasil que geralmente se posiciona no centro do espectro político e que exerce uma influência significativa no Congresso Nacional. Seu objetivo é, muitas vezes, buscar consenso e promover políticas que atendam a uma ampla gama de interesses Quando falamos sobre o processo de obtenção da Carteira Nacional de Habilitação (CNH) e a importância de ensinar corretamente os futuros condutores, a responsabilidade é enorme. ",
+  descsub:
+    "Os instrutores de autoescola têm o dever de fornecer um ensino de qualidade, garantindo que os novos motoristas compreendam plenamente as regras de trânsito, a importância da direção defensiva e os riscos associados à condução.Ensinar corretamente esses futuros condutores é essencial para a segurança nas estradas e para a formação de motoristas conscientes e responsáveis. A responsabilidade dos instrutores não se limita a ensinar técnicas de direção, mas também envolve a transmissão de valores como respeito, paciência e prudência no trânsito. Dessa forma, contribuímos para a redução de acidentes e para a criação de um trânsito mais seguro e harmonioso para todos. ",
   image: benefitOneImg,
   bullets: [
     {
@@ -34,8 +36,12 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Nosso Objetivo",
+  desc: "No Centrão, nosso objetivo é iniciar os futuros condutores no processo de obtenção da Carteira Nacional de Habilitação (CNH) com qualidade e responsabilidade. Somos um grupo de autoescolas unidas, comprometidas em oferecer aulas teóricas de primeira habilitação, curso de renovação e aulas de reciclagem com excelência.",
+  descsub:
+    "Nosso compromisso é garantir que os alunos recebam ensinamentos corretos sobre como se comportar no trânsito, agir de maneira adequada e seguir todas as leis de trânsito. Acreditamos que a educação é a base para formar motoristas conscientes e responsáveis, preparados para enfrentar os desafios das vias com segurança.",
+  descsub2:
+    "Além de fornecer o conhecimento necessário para a aprovação na prova teórica, focamos em desenvolver nos alunos uma compreensão profunda das responsabilidades que vêm com a direção. Nosso objetivo final é contribuir para a formação de condutores bem preparados e seguros, que possam contribuir para um trânsito mais harmonioso e seguro para todos.",
   image: benefitTwoImg,
   bullets: [
     {
@@ -56,5 +62,4 @@ const benefitTwo = {
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
