@@ -80,7 +80,7 @@ const LogoCarousel = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-5">
-      <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
+      <h2 className="text-2xl font-bold text-gray-800">
         Empresas{" "}
         <span className="bg-yellow-500 text-black px-1">Parceiras</span>
       </h2>

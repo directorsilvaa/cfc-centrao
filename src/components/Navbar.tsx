@@ -157,7 +157,7 @@ export const Navbar = () => {
                     <Link
                       key={index}
                       href={`/${item.toLowerCase()}`}
-                      className="w-full px-4 py-2 text-center text-gray-500 rounded-md dark:text-gray-300 hover:text-[#F6C522] focus:text-red-500 focus:bg-red-100 dark:focus:bg-gray-800 focus:outline-none"
+                      className="w-full px-4 py-2 text-center text-gray-500 rounded-md  hover:text-[#F6C522] focus:text-red-500 focus:bg-red-100 focus:outline-none"
                     >
                       {item}
                     </Link>

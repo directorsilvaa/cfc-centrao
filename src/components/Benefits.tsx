@@ -47,14 +47,14 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
       >
         <div>
           <div className="flex flex-col w-full mt-4">
-            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl">
               {data.title}
             </h3>
 
-            <p className="max-w-2xl py-4 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg dark:text-gray-300">
+            <p className="max-w-2xl py-4 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg ">
               {data.desc}
             </p>
-            <p className="max-w-2xl py-4 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg dark:text-gray-300">
+            <p className="max-w-2xl py-4 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg ">
               {data.descsub}
             </p>
           </div>
@@ -66,10 +66,10 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
                   {bullet.icon}
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-xl font-medium text-gray-800 dark:text-white">
+                  <h4 className="text-xl font-medium text-gray-800">
                     {bullet.title}
                   </h4>
-                  <p className="mt-1 text-base text-gray-500 dark:text-gray-300">
+                  <p className="mt-1 text-base text-gray-500">
                     {bullet.desc}
                   </p>
                 </div>
