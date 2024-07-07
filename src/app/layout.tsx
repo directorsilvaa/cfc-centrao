@@ -9,12 +9,14 @@ import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import Head from "next/head";
 
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CentraoFSa | Oficial",
-  description: "O centrão refere-se a um bloco de partidos políticos no Brasil que geralmente se posiciona no centro do espectro político e que exerce uma influência significativa no Congresso Nacional. Seu objetivo é, muitas vezes, buscar consenso e promover políticas que atendam a uma ampla gama de interesses.",
+  description:
+    "O centrão refere-se a um bloco de partidos políticos no Brasil que geralmente se posiciona no centro do espectro político e que exerce uma influência significativa no Congresso Nacional. Seu objetivo é, muitas vezes, buscar consenso e promover políticas que atendam a uma ampla gama de interesses.",
 };
 
 export default function RootLayout({
@@ -24,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <link rel="icon" href="/favicon-c.svg" />
+      </Head>
       <body>
         <NextThemesProvider attribute="class">
           <Navbar />
