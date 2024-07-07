@@ -34,14 +34,20 @@ export function Video({ videoId }: Readonly<VideoProps>) {
             <span className="sr-only">Play Video</span>
           </button>
         )}
-        {playVideo && (
+        {/* {playVideo && (
           <iframe
             src="https://www.youtube.com/embed/XozyMZUu_mY?controls=0&modestbranding=1"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             className="w-full h-full aspect-video"
           ></iframe>
-        )}
+        )} */}
+        <iframe
+          src="https://www.youtube.com/embed/XozyMZUu_mY?controls=0&modestbranding=1"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          className="w-full h-full aspect-video"
+        ></iframe>
       </div>
     </Container>
   );

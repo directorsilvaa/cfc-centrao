@@ -8,6 +8,8 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+import { CtaMaps } from "@/components/CtaMaps";
+import ServicesContent from "@/components/ServicesArea";
 export default function Home() {
   return (
     <Container>
@@ -24,6 +26,10 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
+      <Cta />
+
+      <ServicesContent />
+
       <SectionTitle
         // preTitle="Watch a video"
         title="Veja o vídeo abaixo"
@@ -35,23 +41,23 @@ export default function Home() {
 
       <Video videoId="fZ0D0cnR88E" />
 
-      {/* <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+      <SectionTitle
+        // preTitle="Testimonials"
+        title="Precisar em entrar em contato?"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Mande um e-mail, responderemos em até 24 horas.
       </SectionTitle>
 
+      <CtaMaps/>
+      {/*
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
-      </SectionTitle> */}
+      </SectionTitle> 
 
       {/* <Faq /> */}
-      <Cta />
     </Container>
   );
 }

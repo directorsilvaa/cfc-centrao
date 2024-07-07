@@ -17,21 +17,21 @@ const benefitOne = {
     "Os instrutores de autoescola têm o dever de fornecer um ensino de qualidade, garantindo que os novos motoristas compreendam plenamente as regras de trânsito, a importância da direção defensiva e os riscos associados à condução.Ensinar corretamente esses futuros condutores é essencial para a segurança nas estradas e para a formação de motoristas conscientes e responsáveis. A responsabilidade dos instrutores não se limita a ensinar técnicas de direção, mas também envolve a transmissão de valores como respeito, paciência e prudência no trânsito. Dessa forma, contribuímos para a redução de acidentes e para a criação de um trânsito mais seguro e harmonioso para todos. ",
   image: benefitOneImg,
   bullets: [
-    {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
-    },
+    // {
+    //   title: "Understand your customers",
+    //   desc: "Then explain the first point breifly in one or two lines.",
+    //   icon: <FaceSmileIcon />,
+    // },
+    // {
+    //   title: "Improve acquisition",
+    //   desc: "Here you can add the next benefit point.",
+    //   icon: <ChartBarSquareIcon />,
+    // },
+    // {
+    //   title: "Drive customer retention",
+    //   desc: "This will be your last bullet point in this section.",
+    //   icon: <CursorArrowRaysIcon />,
+    // },
   ],
 };
 
@@ -43,19 +43,19 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Atendimento",
+      desc: "Temos uns dos melhores atendimentos, rápido e eficaz.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Clientes Satisfeitos",
+      desc: "Nosso compromisso é deixar nossos alunos qualificados.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Entrega e Qualidade",
+      desc: "Procuramos entregar a melhor qualidade de material para nossos alunos. ",
+      icon: <ChartBarSquareIcon />,
     },
   ],
 };
