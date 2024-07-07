@@ -156,7 +156,8 @@ export const Navbar = () => {
                   {navigation.map((item, index) => (
                     <Link
                       key={index}
-                      href={`/${item.toLowerCase()}`}
+                      href='/'
+                      // href={`/${item.toLowerCase()}`}
                       className="w-full px-4 py-2 text-center text-gray-500 rounded-md  hover:text-[#F6C522] focus:text-red-500 focus:bg-red-100 focus:outline-none"
                     >
                       {item}
@@ -180,7 +181,8 @@ export const Navbar = () => {
           <ul className="flex items-center space-x-6 mx-auto">
             {navigation.map((item, index) => (
               <li key={index}>
-                <Link href={`/${item.toLowerCase()}`} legacyBehavior>
+                <Link href='/' legacyBehavior>
+                {/* <Link href={`/${item.toLowerCase()}`} legacyBehavior> */}
                   <a className="text-white hover:bg-opacity-30 hover:bg-yellow-500 px-4 py-2 rounded">
                     {item}
                   </a>
