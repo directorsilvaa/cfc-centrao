@@ -26,9 +26,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
-        <link rel="icon" href="/favicon-c.svg" />
-      </Head>
       <body>
         <NextThemesProvider attribute="class">
           <Navbar />
