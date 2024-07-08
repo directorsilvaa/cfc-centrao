@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import image1 from "../../public/img/banner-hero1.png";
 import image2 from "../../public/img/banner-hero-4.jpg";
 import image3 from "../../public/img/banner-hero3.png";
@@ -21,6 +21,14 @@ export function CarouselDefault() {
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000); // Muda de slide a cada 5 segundos
+
+    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+  }, []);
 
   return (
     <div className="relative w-full h-[calc(50vh-100px)] lg:h-[calc(100vh-100px)] overflow-hidden rounded-lg border-4 border-white">
