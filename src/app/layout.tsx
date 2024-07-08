@@ -16,7 +16,7 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Centrao FSA | Oficial",
   description:
-    "O centrão refere-se a um bloco de partidos políticos no Brasil que geralmente se posiciona no centro do espectro político e que exerce uma influência significativa no Congresso Nacional. Seu objetivo é, muitas vezes, buscar consenso e promover políticas que atendam a uma ampla gama de interesses.",
+    "O centrão é especializada em aulas teóricas para obtenção da CNH.",
 };
 
 export default function RootLayout({
