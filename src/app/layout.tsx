@@ -1,17 +1,11 @@
 // src/app/layout.tsx
 import type { Metadata } from "next";
-// import { Inter } from "next/font/google";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import "./globals.css";
-
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import Head from "next/head";
-
-// const inter = Inter({ subsets: ["latin"] });
+import 'react-toastify/dist/ReactToastify.css'; // Importe os estilos do react-toastify
+import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: "Centrao FSA | Oficial",
@@ -28,6 +22,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <NextThemesProvider attribute="class">
+          <ToastContainer />
           <Navbar />
           <div>{children}</div>
           <Footer />
