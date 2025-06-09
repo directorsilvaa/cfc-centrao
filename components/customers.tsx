@@ -10,6 +10,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "./ui/dialog";
+import Image from "next/image";
 
 interface VideoData {
   id: string;
@@ -160,7 +161,7 @@ export function Customers() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <blockquote className="text-xl lg:text-2xl font-medium text-gray-800 leading-relaxed mb-6 italic">
-                "{videosData[currentTestimonial].testimonial}"
+                &ldquo;{videosData[currentTestimonial].testimonial}&rdquo;
               </blockquote>
               
               <div className="flex items-center gap-4 mb-4">
@@ -190,10 +191,11 @@ export function Customers() {
 
             <div className="relative group cursor-pointer" onClick={() => setSelectedVideo(videosData[currentTestimonial])}>
               <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl border-4 border-white">
-                <img
+                <Image
                   src={videosData[currentTestimonial].thumbnail}
                   alt={videosData[currentTestimonial].title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
                   <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
@@ -220,10 +222,11 @@ export function Customers() {
                     className="relative aspect-video cursor-pointer overflow-hidden"
                     onClick={() => setSelectedVideo(video)}
                   >
-                    <img
+                    <Image
                       src={video.thumbnail}
                       alt={video.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
                       <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
